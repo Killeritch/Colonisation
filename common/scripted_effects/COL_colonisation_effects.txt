@@ -20,7 +20,7 @@ colonise = {
 	if = {
 		limit = {
 			1 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -28,12 +28,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 1 }
+		1 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 1 }
 	}
 	if = {
 		limit = {
 			2 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -41,12 +41,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 2 }
+		2 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 2 }
 	}
 	if = {
 		limit = {
 			3 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -54,12 +54,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 3 }
+		3 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 3 }
 	}
 	if = {
 		limit = {
 			4 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -67,12 +67,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 4 }
+		4 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 4 }
 	}
 	if = {
 		limit = {
 			5 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -80,12 +80,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 5 }
+		5 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 5 }
 	}
 	if = {
 		limit = {
 			6 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -93,12 +93,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 6 }
+		6 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 6 }
 	}
 	if = {
 		limit = {
 			7 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -106,12 +106,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 7 }
+		7 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 7 }
 	}
 	if = {
 		limit = {
 			8 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -119,12 +119,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 8 }
+		8 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 8 }
 	}
 	if = {
 		limit = {
 			9 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -132,12 +132,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 9 }
+		9 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 9 }
 	}
 	if = {
 		limit = {
 			10 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -145,12 +145,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 10 }
+		10 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 10 }
 	}
 	if = {
 		limit = {
 			11 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -158,12 +158,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 11 }
+		11 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 11 }
 	}
 	if = {
 		limit = {
 			12 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -171,12 +171,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 12 }
+		12 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 12 }
 	}
 	if = {
 		limit = {
 			13 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -184,12 +184,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 13 }
+		13 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 13 }
 	}
 	if = {
 		limit = {
 			14 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -197,12 +197,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 14 }
+		14 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 14 }
 	}
 	if = {
 		limit = {
 			15 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -210,12 +210,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 15 }
+		15 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 15 }
 	}
 	if = {
 		limit = {
 			16 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -223,12 +223,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 16 }
+		16 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 16 }
 	}
 	if = {
 		limit = {
 			17 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -236,12 +236,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 17 }
+		17 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 17 }
 	}
 	if = {
 		limit = {
 			18 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -249,12 +249,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 18 }
+		18 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 18 }
 	}
 	if = {
 		limit = {
 			19 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -262,12 +262,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 19 }
+		19 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 19 }
 	}
 	if = {
 		limit = {
 			20 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -275,12 +275,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 20 }
+		20 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 20 }
 	}
 	if = {
 		limit = {
 			21 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -288,12 +288,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 21 }
+		21 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 21 }
 	}
 	if = {
 		limit = {
 			22 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -301,12 +301,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 22 }
+		22 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 22 }
 	}
 	if = {
 		limit = {
 			23 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -314,12 +314,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 23 }
+		23 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 23 }
 	}
 	if = {
 		limit = {
 			24 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -327,12 +327,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 24 }
+		24 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 24 }
 	}
 	if = {
 		limit = {
 			25 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -340,12 +340,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 25 }
+		25 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 25 }
 	}
 	if = {
 		limit = {
 			26 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -353,12 +353,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 26 }
+		26 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 26 }
 	}
 	if = {
 		limit = {
 			27 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -366,12 +366,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 27 }
+		27 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 27 }
 	}
 	if = {
 		limit = {
 			28 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -379,12 +379,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 28 }
+		28 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 28 }
 	}
 	if = {
 		limit = {
 			29 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -392,12 +392,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 29 }
+		29 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 29 }
 	}
 	if = {
 		limit = {
 			30 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -405,7 +405,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 30 }
+		30 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 30 }
 	}
 	
 	
@@ -417,7 +417,7 @@ colonise = {
 	if = {
 		limit = {
 			268 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -425,12 +425,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 268 }
+		268 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 268 }
 	}
 	if = {
 		limit = {
 			269 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -438,12 +438,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 269 }
+		269 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 269 }
 	}
 	if = {
 		limit = {
 			270 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -451,12 +451,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 270 }
+		270 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 270 }
 	}
 	if = {
 		limit = {
 			271 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -464,12 +464,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 271 }
+		271 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 271 }
 	}
 	if = {
 		limit = {
 			272 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -477,12 +477,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 272 }
+		272 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 272 }
 	}
 	if = {
 		limit = {
 			273 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -490,12 +490,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 273 }
+		273 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 273 }
 	}
 	if = {
 		limit = {
 			274 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -503,12 +503,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 274 }
+		274 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 274 }
 	}
 	if = {
 		limit = {
 			275 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -516,12 +516,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 275 }
+		275 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 275 }
 	}
 	if = {
 		limit = {
 			276 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -529,12 +529,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 276 }
+		276 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 276 }
 	}
 	if = {
 		limit = {
 			277 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -542,12 +542,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 277 }
+		277 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 277 }
 	}
 	if = {
 		limit = {
 			278 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -555,7 +555,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 278 }
+		278 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 278 }
 	}
 	
 ###############################################
@@ -565,7 +565,7 @@ colonise = {
 	if = {
 		limit = {
 			445 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -573,12 +573,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 445 }
+		445 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 445 }
 	}
 	if = {
 		limit = {
 			446 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -586,12 +586,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 446 }
+		446 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 446 }
 	}
 	if = {
 		limit = {
 			447 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -599,12 +599,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 447 }
+		447 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 447 }
 	}
 	if = {
 		limit = {
 			448 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -612,12 +612,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 448 }
+		448 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 448 }
 	}
 	if = {
 		limit = {
 			449 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -625,12 +625,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 449 }
+		449 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 449 }
 	}
 	if = {
 		limit = {
 			450 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -638,12 +638,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 450 }
+		450 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 450 }
 	}
 	if = {
 		limit = {
 			451 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -651,12 +651,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 451 }
+		451 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 451 }
 	}
 	if = {
 		limit = {
 			452 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -664,12 +664,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 452 }
+		452 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 452 }
 	}
 	if = {
 		limit = {
 			453 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -677,12 +677,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 453 }
+		453 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 453 }
 	}
 	if = {
 		limit = {
 			454 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -690,12 +690,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 454 }
+		454 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 454 }
 	}
 	if = {
 		limit = {
 			455 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -703,12 +703,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 455 }
+		455 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 455 }
 	}
 	if = {
 		limit = {
 			456 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -716,12 +716,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 456 }
+		456 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 456 }
 	}
 	if = {
 		limit = {
 			457 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -729,12 +729,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 457 }
+		457 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 457 }
 	}
 	if = {
 		limit = {
 			458 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -742,12 +742,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 458 }
+		458 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 458 }
 	}
 	if = {
 		limit = {
 			459 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -755,12 +755,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 459 }
+		459 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 459 }
 	}
 	if = {
 		limit = {
 			460 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -768,12 +768,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 460 }
+		460 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 460 }
 	}
 	if = {
 		limit = {
 			461 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -781,12 +781,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 461 }
+		461 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 461 }
 	}
 	if = {
 		limit = {
 			462 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -794,7 +794,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 462 }
+		462 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 462 }
 	}
 	
 ##################################
@@ -802,7 +802,7 @@ colonise = {
 	if = {
 		limit = {
 			513 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -810,12 +810,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 513 }
+		513 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 513 }
 	}
 	if = {
 		limit = {
 			514 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -823,12 +823,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 514 }
+		514 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 514 }
 	}
 	if = {
 		limit = {
 			515 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -836,12 +836,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 515 }
+		515 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 515 }
 	}
 	if = {
 		limit = {
 			516 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -849,12 +849,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 516 }
+		516 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 516 }
 	}
 	if = {
 		limit = {
 			517 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -862,7 +862,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 517 }
+		517 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 517 }
 	}
 
 ######################################
@@ -870,7 +870,7 @@ colonise = {
 	if = {
 		limit = {
 			538 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -878,12 +878,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 538 }
+		538 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 538 }
 	}
 	if = {
 		limit = {
 			539 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -891,12 +891,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 539 }
+		539 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 539 }
 	}
 	if = {
 		limit = {
 			540 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -904,12 +904,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 540 }
+		540 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 540 }
 	}
 	if = {
 		limit = {
 			541 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -917,12 +917,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 541 }
+		541 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 541 }
 	}
 	if = {
 		limit = {
 			542 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -930,12 +930,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 542 }
+		542 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 542 }
 	}
 	if = {
 		limit = {
 			543 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -943,12 +943,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 543 }
+		543 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 543 }
 	}
 	if = {
 		limit = {
 			544 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -956,12 +956,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 544 }
+		544 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 544 }
 	}
 	if = {
 		limit = {
 			545 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -969,12 +969,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 545 }
+		545 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 545 }
 	}
 	if = {
 		limit = {
 			546 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -982,12 +982,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 546 }
+		546 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 546 }
 	}
 	if = {
 		limit = {
 			547 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -995,12 +995,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 547 }
+		547 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 547 }
 	}
 	if = {
 		limit = {
 			548 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1008,12 +1008,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 548 }
+		548 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 548 }
 	}
 	if = {
 		limit = {
 			549 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1021,12 +1021,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 549 }
+		549 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 549 }
 	}
 	if = {
 		limit = {
 			550 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1034,12 +1034,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 550 }
+		550 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 550 }
 	}
 	if = {
 		limit = {
 			551 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1047,12 +1047,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 551 }
+		551 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 551 }
 	}
 	if = {
 		limit = {
 			552 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1060,12 +1060,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 552 }
+		552 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 552 }
 	}
 	if = {
 		limit = {
 			553 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1073,12 +1073,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 553 }
+		553 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 553 }
 	}
 	if = {
 		limit = {
 			554 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1086,12 +1086,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 554 }
+		554 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 554 }
 	}
 	if = {
 		limit = {
 			555 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1099,12 +1099,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 555 }
+		555 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 555 }
 	}
 	if = {
 		limit = {
 			556 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1112,12 +1112,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 556 }
+		556 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 556 }
 	}
 	if = {
 		limit = {
 			557 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1125,12 +1125,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 557 }
+		557 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 557 }
 	}
 	if = {
 		limit = {
 			558 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1138,12 +1138,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 558 }
+		558 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 558 }
 	}
 	if = {
 		limit = {
 			559 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1151,12 +1151,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 559 }
+		559 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 559 }
 	}
 	if = {
 		limit = {
 			560 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1164,12 +1164,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 560 }
+		560 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 560 }
 	}
 	if = {
 		limit = {
 			561 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1177,12 +1177,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 561 }
+		561 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 561 }
 	}
 	if = {
 		limit = {
 			562 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1190,7 +1190,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 562 }
+		562 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 562 }
 	}
 	
 ##############################
@@ -1198,7 +1198,7 @@ colonise = {
 	if = {
 		limit = {
 			660 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1206,12 +1206,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 660 }
+		660 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 660 }
 	}
 	if = {
 		limit = {
 			661 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1219,12 +1219,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 661 }
+		661 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 661 }
 	}
 	if = {
 		limit = {
 			662 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1232,12 +1232,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 662 }
+		662 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 662 }
 	}
 	if = {
 		limit = {
 			663 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1245,12 +1245,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 663 }
+		663 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 663 }
 	}
 	if = {
 		limit = {
 			664 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1258,12 +1258,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 664 }
+		664 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 664 }
 	}
 	if = {
 		limit = {
 			665 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1271,12 +1271,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 665 }
+		665 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 665 }
 	}
 	if = {
 		limit = {
 			666 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1284,7 +1284,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 666 }
+		666 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 666 }
 	}
 	
 ##############################
@@ -1293,7 +1293,7 @@ colonise = {
 	if = {
 		limit = {
 			681 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1301,7 +1301,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 681 }
+		681 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 681 }
 	}
 	
 ##############################
@@ -1309,7 +1309,7 @@ colonise = {
 	if = {
 		limit = {
 			699 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1317,12 +1317,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 699 }
+		699 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 699 }
 	}
 	if = {
 		limit = {
 			700 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1330,12 +1330,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 700 }
+		700 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 700 }
 	}
 	if = {
 		limit = {
 			701 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1343,7 +1343,7 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 701 }
+		701 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 701 }
 	}
 	
 ##############################
@@ -1351,7 +1351,7 @@ colonise = {
 	if = {
 		limit = {
 			718 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1359,12 +1359,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 718 }
+		718 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 718 }
 	}
 	if = {
 		limit = {
 			719 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1372,12 +1372,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 719 }
+		719 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 719 }
 	}
 	if = {
 		limit = {
 			720 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1385,12 +1385,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 720 }
+		720 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 720 }
 	}
 	if = {
 		limit = {
 			721 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1398,12 +1398,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 721 }
+		721 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 721 }
 	}
 	if = {
 		limit = {
 			722 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1411,12 +1411,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 722 }
+		722 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 722 }
 	}
 	if = {
 		limit = {
 			723 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1424,12 +1424,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 723 }
+		723 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 723 }
 	}
 	if = {
 		limit = {
 			724 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1437,12 +1437,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 724 }
+		724 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 724 }
 	}
 	if = {
 		limit = {
 			725 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1450,12 +1450,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 725 }
+		725 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 725 }
 	}
 	if = {
 		limit = {
 			726 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1463,12 +1463,12 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 726 }
+		726 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 726 }
 	}
 	if = {
 		limit = {
 			727 = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 				any_neighbor_state = {
 					is_owned_by = ROOT
@@ -1476,9 +1476,6 @@ colonise = {
 				}
 			}
 		}
-		ROOT = { transfer_state = 727 }
+		727 = { clr_state_flag = uncolonised } ROOT = { transfer_state = 727 }
 	}
-
-#########
-
 }

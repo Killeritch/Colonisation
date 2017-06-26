@@ -19,7 +19,7 @@ country_event = {
 		}
 		any_owned_state = {
 			any_neighbor_state = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 			}
 		}
 	}
@@ -33,13 +33,13 @@ country_event = {
 		random_owned_state = {
 			limit = {
 				any_neighbor_state = {
-					is_owned_by = AFR
+					has_state_flag = uncolonised
 				}
 			}
 			set_border_war = yes
 			random_neighbor_state = {
 				limit = {
-					is_owned_by = AFR
+					has_state_flag = uncolonised
 				}
 				add_claim_by = ROOT
 			}
@@ -57,7 +57,7 @@ country_event = {
 		any_owned_state = {
 			is_border_conflict = yes
 			any_neighbor_state = {
-				is_owned_by = AFR
+				has_state_flag = uncolonised
 				is_claimed_by = ROOT
 			}
 		}
@@ -84,7 +84,7 @@ country_event = {
 			is_border_conflict = yes
 			NOT = {
 				any_neighbor_state = {
-					is_owned_by = AFR
+					has_state_flag = uncolonised
 					is_claimed_by = ROOT
 				}
 			}
@@ -102,7 +102,7 @@ country_event = {
 				is_border_conflict = yes
 				NOT = {
 					any_neighbor_state = {
-						is_owned_by = AFR
+						has_state_flag = uncolonised
 						is_claimed_by = ROOT
 					}
 				}
