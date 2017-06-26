@@ -1,0 +1,113 @@
+﻿###########################
+# Colonisation Events
+###########################
+
+add_namespace = colonisation
+
+# start colonisation border war
+country_event = {
+	id = colonisation.1
+	title = colonisation.1.t
+	desc = colonisation.1.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	trigger = {
+		NOT = { tag = OTT }
+		NOT = { tag = TUR }
+		capital_scope = {
+			is_on_continent = europe
+		}
+		any_owned_state = {
+			any_neighbor_state = {
+				is_owned_by = AFR
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { 	
+		name = colonisation.1.a
+		random_owned_state = {
+			limit = {
+				any_neighbor_state = {
+					is_owned_by = AFR
+				}
+			}
+			set_border_war = yes
+			random_neighbor_state = {
+				limit = {
+					is_owned_by = AFR
+				}
+				add_claim_by = ROOT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = colonisation.2
+	title = colonisation.2.t
+	desc = colonisation.2.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	trigger = {
+		any_owned_state = {
+			is_border_conflict = yes
+			any_neighbor_state = {
+				is_owned_by = AFR
+				is_claimed_by = ROOT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = colonisation.2.a
+		colonise = ROOT
+	}
+}
+
+country_event = {
+	id = colonisation.3
+	title = colonisation.3.t
+	desc = colonisation.3.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	trigger = {
+		any_owned_state = {
+			is_border_conflict = yes
+			NOT = {
+				any_neighbor_state = {
+					is_owned_by = AFR
+					is_claimed_by = ROOT
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = colonisation.3.a
+		random_owned_state = {
+			limit = {
+				is_border_conflict = yes
+				NOT = {
+					any_neighbor_state = {
+						is_owned_by = AFR
+						is_claimed_by = ROOT
+					}
+				}
+			}
+			set_border_war = no
+		}
+	}
+}

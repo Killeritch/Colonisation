@@ -1,0 +1,25 @@
+
+state={
+	id=450
+	name="STATE_450"
+	manpower = 82535
+	
+	state_category = enclave
+
+	history={
+		owner = AFR
+		set_state_flag = uncolonised
+		
+		victory_points = {
+			11954 3 
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = LBA
+	}
+
+	provinces={
+		1127 4120 10123 11954 
+	}
+}
